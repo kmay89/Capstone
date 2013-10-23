@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+  
+
+
+
+  <head>
+
+     <!--a function that writes a file..needs to be filled in-->
+      <script>
+        function writeText()
+        {
+          state={off:"On"}
+          document.write(state.off);;
+        }
+      </script>
+      <!--End a function that writes a file..needs to be filled in-->
+
+
+    <title>Outlet Control</title>
+            
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <!-- Bootstrap -->
+            <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+       
+  </head>
+    
+
+    <body>
+     
+      <h6>  Outlet Control</h6>
+
+      <!--Sets up a grey well thats 1/2 the screen width to store buttons-->
+      <div class="span6-fluid">
+      <div class="well">
+           
+            
+            
+            <!--Button Line 1-->
+            
+            <div class="control-group"><!--for verticle spacing-->
+               
+
+            <div class="btn-group">
+            <input type="button" class='btn btn' data-loading-text="Loading..." value="Outlet 1"/> 
+            <!--Sets a loading state for button when receiving data--> 
+              
+              <!--controls dropdown menu-->
+              <button class="btn dropdown-toggle" data-toggle="dropdown">
+                <span class="caret"></span>
+                </button>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Schedule</a></li>
+                    <li><a href="#">Battery Level</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">Delete</a></li>
+                  </ul>
+              <!--End controls dropdown menu-->
+            
+            </div>
+              
+              <!--Open and Close Radio Toggles Control-->
+              <div class="btn-group" data-toggle="buttons-radio">
+                <button type="button" class="btn btn" onclick="writeText()">On</button>
+                <button type="button" class="btn btn">Off</button>
+              </div>
+              <span class="label label-warning">Please wait</span>
+              <!--End Open and Close Radio Toggles Control-->
+            
+
+            </div><!--End for verticle spacing-->
+            
+            <!--End of Button Line 1-->  
+            <!--Button Line 2-->
+            
+            <div class="control-group"><!--for verticle spacing-->
+               
+
+            <div class="btn-group">
+            <input type="button" class='btn btn' data-loading-text="Loading..." value="Outlet 2"/> 
+            <!--Sets a loading state for button when receiving data--> 
+              
+              <!--controls dropdown menu-->
+              <button class="btn dropdown-toggle" data-toggle="dropdown">
+                <span class="caret"></span>
+                </button>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Schedule</a></li>
+                    <li><a href="#">Battery Level</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">Delete</a></li>
+                  </ul>
+              <!--End controls dropdown menu-->
+            
+            </div>
+              
+              <!--Open and Close Radio Toggles Control-->
+              <div class="btn-group" data-toggle="buttons-radio">
+                <button type="button" class="btn btn" onclick="writeText()">On</button>
+                <button type="button" class="btn btn">Off</button>
+              </div>
+              <span class="label label-success">Paired</span>
+              <!--End Open and Close Radio Toggles Control-->
+            
+
+            </div><!--End for verticle spacing-->
+            
+            <!--End of Button Line 2-->  
+
+            <!--Button Line 3-->
+            
+            <div class="control-group"><!--for verticle spacing-->
+               
+
+            <div class="btn-group">
+            <input type="button" class='btn btn' data-loading-text="Loading..." value="Outlet 3"/> 
+            <!--Sets a loading state for button when receiving data--> 
+              
+              <!--controls dropdown menu-->
+              <button class="btn dropdown-toggle" data-toggle="dropdown">
+                <span class="caret"></span>
+                </button>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Schedule</a></li>
+                    <li><a href="#">Battery Level</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">Delete</a></li>
+                  </ul>
+              <!--End controls dropdown menu-->
+            
+            </div>
+              
+              <!--Open and Close Radio Toggles Control-->
+              <div class="btn-group" data-toggle="buttons-radio">
+                <button type="button" class="btn btn" onclick="writeText()">On</button>
+                <button type="button" class="btn btn">Off</button>
+              </div>
+              <span class="label label-important">Searching...</span>
+              <!--End Open and Close Radio Toggles Control-->
+            
+
+            </div><!--End for verticle spacing-->
+            
+            <!--End of Button Line 3-->  
+
+
+           
+      </div>
+
+ <input type="button" class='btn btn-primary' onclick="window.location.href='file://localhost/Users/karlmeves/Documents/Capstone/home.html'"value="Home"/>
+
+    </div>
+
+          <script src="http://code.jquery.com/jquery.js"></script>
+          <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>

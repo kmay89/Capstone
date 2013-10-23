@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schedule</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+  </head>
+  <body>
+   
+
+    <div class="container">
+      <header class="row">
+        <div class="span12">
+         
+         
+
+          <nav class="navbar">
+            <div class="navbar-inner">
+                  <a href="#" class="brand">AKMNW</a>
+                  <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                  
+
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </a>
+                 
+                 <div class="nav-collapse collapse">
+
+                    <ul class="nav">
+                        
+                       <!-- <li><a href="#"><i class="icon-th-large"></i> Blinds</a></li>
+                        <li class="divider-vertical"></li>
+                        <li><a href="#"><i class="icon-off"></i> Outlets</a></li>
+                        <li class="divider-vertical"></li> -->
+                        <li><a href="#"><i class="icon-calendar"></i> Schedule</a></li>
+                   
+                        <li class="dropdown">
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Battery Levels
+                          <b class="caret"></b>
+                          </a>
+
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Blinds Room 1  <span class="label label-warning">Low Battery</span></a></li>
+
+                        <li><a href="#">Blinds Room 2  <span class="label label-important">Please Recharge</span></a></li>
+                        <li><a href="#">Blinds Room 3  <span class="label label-success">Charged</span></a></li>
+                        </ul>
+                      </li>
+                    
+
+
+
+                      </ul>
+                  </div>
+              </div>
+          </nav>
+          </div>
+        
+        </header>
+      </div>
+<select class="form-control">
+  <option>1</option>
+  <option>2</option>
+  <option>3</option>
+  <option>4</option>
+  <option>5</option>
+</select>
+
+<div class="tabbable"> <!-- Only required for left/right tabs -->
+  <ul class="nav nav-tabs">
+    <li class="active"><a href="#tab1" data-toggle="tab">Sunday</a></li>
+    <li><a href="#tab2" data-toggle="tab">Monday</a></li>
+    <li class="active"><a href="#tab1" data-toggle="tab">Sunday</a></li>
+  </ul>
+  <div class="tab-content">
+    <div class="tab-pane active" id="tab1">
+      
+
+
+
+
+
+ <div class="span6-fluid">
+      <div class="well">
+
+    <div class="control-group">
+     <input type="button" class='btn-large btn' onclick="window.location.href='file://localhost/Users/karlmeves/Documents/Capstone/Blinds_Control.html'"value="Blinds Control"/>
+
+    <input type="button" class='btn-large btn' onclick="window.location.href='file://localhost/Users/karlmeves/Documents/Capstone/Outlet_Control.html'" value="Outlet Control"/>
+    </div>
+    <div>
+    </div>
+    <div>
+    </div>
+    <div class="control-group">
+    <div class="control-group">
+
+
+
+    
+    </div>
+  </div>
+
+
+
+</div>
+</div>
+
+
+
+
+    </div>
+    <div class="tab-pane" id="tab2">
+
+ <div class="span6-fluid">
+      <div class="well">
+ <div class="control-group">
+
+<div class="container">  
+<div id="example" class="modal hide fade in" style="display: none; ">  
+<div class="modal-header">  
+<a class="close" data-dismiss="modal">×</a>  
+<h3>Adding Outlet</h3>  
+</div>  
+<div class="modal-body">  
+<h4>Plug in outlet and press button once.</h4>  
+<p>Searching...</p>                
+</div>  
+<div class="modal-footer">  
+<a href="#" class="btn btn-warning" data-dismiss="modal">Confirm</a>  
+<a href="#" class="btn" data-dismiss="modal">Close</a>  
+</div>  
+</div>  
+<p><a data-toggle="modal" href="#example" class="btn btn-large ">Add Outlet</a></p>  
+</div>  
+
+</div>
+
+
+<div class="container">  
+<div id="example2" class="modal hide fade in" style="display: none; ">  
+<div class="modal-header">  
+<a class="close" data-dismiss="modal">×</a>  
+<h3>Adding Blind</h3>  
+</div>  
+<div class="modal-body">  
+<h4>Press button on blinds once.</h4>  
+<p><span class="label label-success">Paired</span>  Success! We've paired your blinds.</p>                
+</div>  
+<div class="modal-footer">  
+<a href="#" class="btn btn-success" data-dismiss="modal">Confirm</a>  
+<a href="#" class="btn" data-dismiss="modal">Close</a>  
+</div>  
+</div>  
+<p><a data-toggle="modal" href="#example2" class="btn btn-large ">Add Blind</a></p>  
+</div>  
+
+
+
+
+
+     
+    
+     </div>
+     
+        </div>
+    </div>
+</div>
+</div>
+
+</div>  
+
+
+
+
+
+
+
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>  
+    <script src="/twitter-bootstrap/twitter-bootstrap-v2/js/bootstrap-modal.js"></script>  
+  </body>
+</html>
